@@ -1,0 +1,18 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+  @font-face {font-family:'OpenSans'; src: url('../font/OpenSans-Regular.ttf'); font-weight: normal;}
+ .style{color: red;}
+   body #skinform { padding-top: 15px; width: 100%; display: inline-block; }
+  body .skincontent {width: 100%;}
+  #skinform label { width:100px; float:left; text-transform: capitalize;font-size: 13px;font-family:'OpenSans'; font-size: 17px; font-weight: 400; color: #002436;}
+  #skinform div { clear:both;padding-bottom:15px;display: inline-block;float: left;}  
+  #skinform input { width:250px; float:left; font-size: 17px; font-weight: 400; color: #002436;}
+  #skinform textarea { /*width: 250px;  height: 238px; */float:left; width: 750px; height: 720px;font-size: 17px; font-weight: 400; color: #002436;}
+  #skinform .skinform_submit { float: left; width: 91px; background-color: #002436;    font-size: 18px;    color: #fff;    border: 0px;    border-radius: 15px;    text-align: center;    padding: 5px 0px;outline: 0px;
+    cursor: pointer;} 
+  .sucess_msg { font-family: 'OpenSans';    font-size: 17px;
+    margin-top: 16px;
+    color: #008000;
+    text-transform: capitalize;}
